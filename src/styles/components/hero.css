@@ -19,7 +19,7 @@
 
 .hero .hero-avatar {
   height: 80px;
-  background-image: url("images/hero-avatar.webp");
+  background-image: url("/images/hero-avatar.webp");
   background-position: center;
   background-size: cover;
   aspect-ratio: 1/1;
@@ -41,7 +41,7 @@
   display: block;
   border-radius: 80px;
   aspect-ratio: 21/9;
-  background-image: url("images/hero-separator.webp");
+  background-image: url("/images/hero-separator.webp");
   background-position: center;
   background-size: cover;
 }
