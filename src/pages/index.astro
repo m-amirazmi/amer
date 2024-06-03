@@ -1,0 +1,27 @@
+---
+import Layout from "../components/layout.astro";
+import "../styles/pages/home.css";
+---
+
+<Layout title="AMER | My Developer Portfolio">
+  <div class="hero container">
+    <h1>
+      <span class="hero-intro"
+        >I'M<span class="hero--primary">AMER</span><span class="hero-avatar"
+        ></span>AZMI</span
+      >
+      <span class="hero-title"
+        >FRONT-END<span class="hero-separator"></span><span
+          class="hero--primary">NEXTJS</span
+        ></span
+      >
+      <span>DEVELOPER</span>
+    </h1>
+    <div class="hero-media">
+      <video autoplay loop muted>
+        <source src="/videos/hero-video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</Layout>
