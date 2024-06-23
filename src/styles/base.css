@@ -1,8 +1,0 @@
-@import "_reset.css";
-@import "_typography.css";
-@import "_colors.css";
-
-body {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-}
